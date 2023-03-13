@@ -23,7 +23,7 @@
     tmux
 
     nodejs-16_x nodePackages.pnpm nodePackages.yarn
-    flutter
+    elixir 
     vlang
     rustup rust-analyzer cargo-watch
     cabal-install ghc stack haskell-language-server
