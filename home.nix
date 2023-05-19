@@ -15,23 +15,32 @@
 
   home.packages = with pkgs; [
     git
-    curl wget axel
+    curl grpcurl wget axel
     exa
     fzf ripgrep
     yank xclip xsel
     neovim
     tmux
 
-    nodejs-16_x nodePackages.pnpm nodePackages.yarn
+    # nodejs-18_x nodePackages.pnpm nodePackages.yarn
+    go
     elixir 
     vlang
     rustup rust-analyzer cargo-watch
     cabal-install ghc stack haskell-language-server
 
+    direnv
+    niv
+    fnm
+    asdf-vm
+
     diesel-cli
 
     postgresql
+
+    jmeter
   ];
+
 
   programs.zsh = {
        enable = true;
